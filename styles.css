@@ -1,0 +1,126 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,200&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.body{
+        background: rgb(9, 16, 48);    
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: rgba(27, 14, 101, 0.701);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+
+    font-size: 25px;
+    color: aliceblue;
+    text-decoration: 100px;
+    font-weight: 1000;
+}
+.navbar-nav{
+     font-size: 15px;
+    color: aliceblue;
+    text-decoration: 100px;
+    font-weight: 800;
+    }
+.navbar-toggler{
+    background-color: aliceblue;
+    color: aliceblue;
+}
+#home{
+    margin-top: 10px;
+    color: aliceblue;
+    display: flex;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+#home-content{
+
+    max-width: 600px;
+}
+.home-content h1{
+    font-size: 45px;
+    font-weight: 800;
+}
+.home-content h3{
+
+    font-size: large;
+    font-weight: 1000;
+    color: rgb(142, 199, 249);
+}
+.btn-box{
+
+        position: absolute;
+        bottom: 74px;
+        width: 109px;
+        display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 80px;
+    ;
+       
+
+}
+.ba{
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid rgb(29, 27, 91);
+    border-radius: 50%;
+    margin-top: 50px;
+}
+#con{
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    color: aliceblue;
+    margin-top: 1px;
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+    padding: 10px;
+
+}

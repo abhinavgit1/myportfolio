@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhinav</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="https://media.licdn.com/dms/image/D4D03AQGJEKE9WjI_Mg/profile-displayphoto-shrink_400_400/0/1679836909349?e=1700092800&v=beta&t=Cw-qhtFh1jhGhQtAMQOfXbBem13dl8LHwak_MTW9VSU">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+
+<body class="body">
+
+    <header class="header">
+        <a href="#" class="logo"> Abhinav</a>
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" style="background-color: rgb(95, 125, 155);">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link" href="#home" style="color: aliceblue;">Home</a>
+                      <a class="nav-link" href="#home" style="color: aliceblue;">About</a>
+                      <a class="nav-link" href="#con" style="color: aliceblue;">Contact Me</a>
+                    </div>
+                  </div>
+            </div>
+          </nav>
+    </header>
+
+<section id="home">
+    <div id="home-content">
+        <h1 class="home-content h1">Hi, I'm Abhinav</hi>
+        <h3 class="home-content h3">Frontent Developer</h3>
+        <p>
+            I am a highly skilled front-end developer. I specialize in HTML, CSS, and JavaScript and have experience working with popular frameworks such as React and Angular. I am passionate about creating visually appealing websites that are both functional and easy to navigate. My goal is to continue learning new technologies and techniques to stay up-to-date with the latest trends in front-end development
+        </p>
+        <div class="btn-box">
+            <a class="ba"  href="https://instagram.com/_abhinav_26?utm_source=qr&igshid=OGU0MmVlOWVjOQ==" target="_blank"><i class='bx bxl-instagram bx-flip-horizontal bx-flashing' ></i></a>
+            <a  class="ba" href="https://www.linkedin.com/in/abhinav-br-b59b5a26b" target="_blank"><i class='bx bxl-linkedin bx-flashing' ></i></a>
+        </div>
+    </div>
+</section>
+
+        
+<div id="con">
+    <h1 style="display: flex; justify-content: center;">Contact Me</h1>
+    <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <script>
+        // JavaScript code to handle form submission
+        document.getElementById("contactForm").addEventListener("submit", function (event) {
+            event.preventDefault(); // Prevent the form from actually submitting
+
+            // You can add code here to send the form data to your server or perform any desired action
+            // For this example, we'll just log the form data to the console
+            const formData = new FormData(event.target);
+            for (const [name, value] of formData) {
+                console.log(`${name}: ${value}`);
+            }
+        });
+    </script>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
